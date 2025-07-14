@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/51122cf449.js" crossorigin="anonymous"></script>
+    <title>Wrap & Go</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav class="flex right items-center sticky" id="main-nav">
+        <button id="burger" aria-expanded="false" aria-label="Menu">
+            ☰
+        </button>
+        <div class="left burger-icon flex">
+            <a class="navigace text--bold margin-left" href="index.html"><i class="fa-solid fa-burger"></i></a>
+        </div>
+        <ul class="flex list margin-right" id="nav-list">
+            <li><a class="navigace text--bold main-page-nav" id="main-page-link" href="index.html">Hlavní stránka</a>
+            </li>
+            <li><a class="navigace text--bold" href="nabidka.html">Naše Nabídka</a></li>
+            <li><a class="navigace text--bold" href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+    <header class="beg-color">
+        <h1 class="flex justify-center  margin0 padding-top padding-bottom">Naše nabídka</h1>
+    </header>
+    <main id="main-header" class="main">
+        <section class="menu-section items-center flex--column flex">
+            <article class="menu items-center flex">
+                <div class="menu__card card">
+                    <h3 class="menu__card__title">Kuřecí Caesar wrap</h3>
+                    <p class="menu__card__subtitle">Naše stálice, která nikdy nezklame – šťavnaté kuřecí maso, křupavý
+                        římský salát, parmazán a Caesar dresink v hebké tortille.</p>
+                    <span class="price">195 Kč</span>
+                </div>
+                <div class="menu__img__wrapper  flex">
+                    <img src="wrap.jpg" class="menu__img" />
+                </div>
+            </article>
+
+            <article class="menu items-center flex reverse">
+                <div class="menu__card card">
+                    <h3 class="menu__card__title">Snídaňový wrap</h3>
+                    <p class="menu__card__subtitle">Vydatný start do nového dne – vejce, sýr a křupavá slanina zabalené
+                        v teplé tortille. Perfektní snídaně na cesty.</p>
+                    <span class="price">195 Kč</span>
+                </div>
+                <div class="menu__img__wrapper flex">
+                    <img src="breakfast.avif" class="menu__img" />
+                </div>
+            </article>
+            <section class="menu-section items-center flex--column flex">
+                <article class="menu items-center flex">
+                    <div class="menu__card card">
+                        <h3 class="menu__card__title">Zdravý vege-wrap</h3>
+                        <p class="menu__card__subtitle">Lehký a chutný wrap plný čerstvé zeleniny, hummusu a avokáda.
+                            Ideální volba na cestu i do práce – zasytí, ale nezatíží.</p>
+                        <span class="price">155 Kč</span>
+                    </div>
+                    <div class="menu__img__wrapper  flex">
+                        <img src="healthy-wraps.jpg" class="menu__img" />
+                    </div>
+                </article>
+
+                <article class="menu items-center flex reverse">
+                    <div class="menu__card card">
+                        <h3 class="menu__card__title">Pikantní mexický wrap</h3>
+                        <p class="menu__card__subtitle">Chuťový výlet do Mexika – grilované kuřecí maso, černé fazole,
+                            kukuřice, sýr a pikantní salsa v pšeničné tortille. Pro ty, co se nebojí trochu žáru!</p>
+                        <span class="price">195 Kč</span>
+                    </div>
+                    <div class="menu__img__wrapper flex">
+                        <img src="mexico.jpg" class="menu__img" />
+                    </div>
+                </article>
+            </section>
+
+    </main>
+    <footer class="footer">
+        <p>© Všechna práva vyhrazena František Barták</p>
+    </footer>
+</body>
+
+</html>

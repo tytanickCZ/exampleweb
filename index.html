@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/51122cf449.js" crossorigin="anonymous"></script>
+    <title>Wrap & Go</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <nav class="flex right items-center sticky" id="main-nav">
+        <button id="burger" aria-expanded="false" aria-label="Menu">
+            ☰
+        </button>
+        <div class="left burger-icon flex">
+            <a class="navigace text--bold margin-left" href="index.html"><i class="fa-solid fa-burger"></i></a>
+        </div>
+        <ul class="flex list margin-right" id="nav-list">
+            <li><a class="navigace text--bold main-page-nav" id="main-page-link" href="index.html">Hlavní stránka</a>
+            </li>
+            <li><a class="navigace text--bold" href="nabidka.html">Naše Nabídka</a></li>
+            <li><a class="navigace text--bold" href="kontakt.html">Kontakt</a></li>
+        </ul>
+    </nav>
+
+    <header id="main-header" class="header flex main-page-header">
+        <div class="header__hero-content card ">
+            <h1 class="header__hero-content__title">WRAP & GO</h1>
+            <p class="header__hero-content__subtitle">Zabalená chuť na cestu</p>
+            <a href="nabidka.html" class="header__hero-content__btn button">Naše nabídka</a>
+        </div>
+        <div class="hero-container">
+            <img src="wrap.jpg" class="hero-img--large hero-img top2 right1" />
+            <img src="kababimg.jpg" class="hero-img--small hero-img top1 right2" />
+            <img src="95a7dd717ccaf3babe02893a7fd5de2f.jpg" class="hero-img--small2 hero-img top3 left1 mirror" />
+        </div>
+
+    </header>
+    <main class="main ">
+        <section class="padding-top-big menu-section items-center flex--column flex">
+            <article class="menu items-center flex">
+                <div class="menu__card card">
+                    <h3 class="menu__card__title text-center">O nás</h3>
+                    <p class="menu__card__subtitle text-center">Tento web slouží jako ukázkový projekt. Restaurace na
+                        obrázku není skutečná – jde o fiktivní koncept vytvořený pro účely prezentace.</p>
+                </div>
+                <div class="menu__img__wrapper  flex">
+                    <img src="restaurace.jpeg" class="presentation__img" />
+                </div>
+            </article>
+        </section>
+        <section class="padding-top-big opening-hours-section text--bold">
+            <h2 class="opening-hours-title">Otevírací doba</h2>
+            <table class="opening-hours-table max-width table--centered">
+                <thead>
+                    <tr>
+                        <th>Den</th>
+                        <th>Čas</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pondělí</td>
+                        <td>11:00 – 22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Úterý</td>
+                        <td>11:00 – 22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Středa</td>
+                        <td>11:00 – 22:00</td>
+                    </tr>
+                    <tr>
+                        <td>Čtvrtek</td>
+                        <td>11:00 – 23:00</td>
+                    </tr>
+                    <tr>
+                        <td>Pátek</td>
+                        <td>11:00 – 00:00</td>
+                    </tr>
+                    <tr>
+                        <td>Sobota</td>
+                        <td>12:00 – 00:00</td>
+                    </tr>
+                    <tr>
+                        <td>Neděle</td>
+                        <td>Zavřeno</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section class="padding-top-big map-section margin-top--big">
+            <h2 class="opening-hours-title">Kde nás najdete?</h2>
+            <div class="map-wrapper"
+                style="width: 100%; max-width: 1000px; margin: 0 auto; border-radius: 1rem; overflow: hidden; box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2564.730101795525!2d17.26315111571788!3d49.59455657936309!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4712252e65eb5db9%3A0x5360cf0d8c4b3d8!2sUniverzita%20Palack%C3%A9ho%20v%20Olomouci!5e0!3m2!1scs!2scz!4v1620297386573!5m2!1scs!2scz"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div>
+        </section>
+
+        <section class="margin-top-big reviews-section">
+            <h2 class="reviews-title">Recenze</h2>
+            <div class="reviews-container flex justify-center">
+                <div class="review-card card">
+                    <p class="review-text">Skvělé služby a milý personál. Určitě doporučuji!</p>
+                    <p class="review-author">– Jana K.</p>
+                </div>
+                <div class="review-card card">
+                    <p class="review-text">Příjemné prostředí a velmi profesionální přístup. 5/5.</p>
+                    <p class="review-author">– Petr M.</p>
+                </div>
+                <div class="review-card card">
+                    <p class="review-text">Byla jsem nadšená z rychlosti a kvality. Děkuji!</p>
+                    <p class="review-author">– Lucie N.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer class="footer">
+        <p>© Všechna práva vyhrazena František Barták</p>
+    </footer>
+</body>
+
+</html>

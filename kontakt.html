@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/51122cf449.js" crossorigin="anonymous"></script>
+    <title>Wrap & Go</title>
+    <script src="script.js" defer></script>
+</head>
+
+<body class="beg-color">
+    <div class="page-wrapper">
+        <nav class="flex right items-center sticky" id="main-nav">
+            <button id="burger" aria-expanded="false" aria-label="Menu">
+                ☰
+            </button>
+            <div class="left burger-icon flex">
+                <a class="navigace text--bold margin-left" href="index.html"><i class="fa-solid fa-burger"></i></a>
+            </div>
+            <ul class="flex list margin-right" id="nav-list">
+                <li><a class="navigace text--bold main-page-nav" id="main-page-link" href="index.html">Hlavní
+                        stránka</a></li>
+                <li><a class="navigace text--bold" href="nabidka.html">Naše Nabídka</a></li>
+                <li><a class="navigace text--bold" href="kontakt.html">Kontakt</a></li>
+            </ul>
+        </nav>
+        <header class="beg-color">
+            <h1 class="flex justify-center margin0 padding-top ">Kontakt</h1>
+        </header>
+        <main class="beg-color contact-main">
+            <section id="contact" class="margin-top--big margin--top--large margin--bottom--large contact-font-size">
+                <div class="grid grid--even ">
+                    <article class="margin--right">
+                        <h3 class="margin0">Kontaktní údaje</h3>
+                        <p>V případě že byste měli zájem o spolupráci nebo catering neváhejte nás kontaktovat</p>
+                        <address class="flex gap-small flex--column">
+                            <div class="margin--top--small flex--even-space__half__icon-container flex">
+                                <i class=" fa-regular fa-envelope icon--medium" style="color: #ffffff;"></i>
+                                <span class="margin-left">WRAP&GO@wrap.cz</span>
+                            </div>
+                            <div class="margin--top--small flex--even-space__half__icon-container flex">
+                                <i class="icon--medium fa-solid fa-phone" style="color: #ffffff;"></i>
+                                <span class="margin-left">666 666 666</span>
+                            </div>
+                        </address>
+                    </article>
+
+                    <form class="form--container flex--column flex" action="https://formsubmit.co/tytanick118@seznam.cz"
+                        method="POST">
+                        <label for="name">Jméno:</label>
+                        <input class="form--container__input" type="text" name="name" id="name" required>
+
+                        <label for="email">E-mail:</label>
+                        <input class="form--container__input" type="email" name="email" id="email" required>
+
+                        <label for="message">Zpráva:</label>
+                        <textarea class="form--container__input" name="message" id="message" rows="5"
+                            required></textarea>
+
+                        <button class="form--container__button text--bold margin-bottom" type="submit">Odeslat</button>
+                    </form>
+
+
+                </div>
+            </section>
+
+        </main>
+    </div>
+    <footer class="footer">
+        <p>© Všechna práva vyhrazena František Barták</p>
+    </footer>
+    </div>
+</body>
+
+</html>
